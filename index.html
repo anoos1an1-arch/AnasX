@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ذادريم — مساحة فاخرة للروابط والمحتوى المختار.">
+  <title>ذادريم | THE DREAM SPACE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+    <div class="grid-floor"></div>
+    <div class="stars"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="ذادريم">
+      <img src="assets/logo.png" alt="ذادريم - THE DREAM SPACE">
+    </a>
+    <nav aria-label="التنقل">
+      <a href="#links">الروابط</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="ذادريم">
+      <div class="hero-logo-wrap">
+        <div class="logo-halo"></div>
+        <img class="hero-logo" src="assets/logo.png" alt="ذادريم - THE DREAM SPACE">
+      </div>
+      <a class="scroll-button" href="#links"><i data-lucide="arrow-down"></i><span>استكشف الروابط</span></a>
+    </section>
+
+    <section id="links" class="section">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow"><i data-lucide="sparkles"></i> مختارات ذادريم</span>
+          <h1>روابطك في مكان واحد</h1>
+        </div>
+        <label class="search" aria-label="البحث في الروابط">
+          <i data-lucide="search"></i>
+          <input id="search" type="search" placeholder="ابحث في الروابط..." autocomplete="off">
+        </label>
+      </div>
+      <div id="linkGrid" class="link-grid"><div class="loading">جاري تحميل الروابط...</div></div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> ذادريم</span><span>THE DREAM SPACE</span></footer>
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

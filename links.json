@@ -1,0 +1,16 @@
+[
+  {
+    "id": "example-1",
+    "title": "أضف اسم الرابط هنا",
+    "description": "ضع أيقونتك داخل assets/icons ثم اكتب اسم الملف هنا.",
+    "url": "https://example.com",
+    "icon": "globe"
+  },
+  {
+    "id": "example-2",
+    "title": "مثال لأيقونة مخصصة",
+    "description": "مثال: icon = youtube.png",
+    "url": "https://youtube.com",
+    "icon": "dream.svg"
+  }
+]
